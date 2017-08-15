@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1250A16B9DA8BB43116D1A /* Pods_Artistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664EC1AA1034D9FCB87A75A9 /* Pods_Artistry.framework */; };
+		4220B7C61DC47E1A003C3945 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4220B7C51DC47E1A003C3945 /* CoreData.framework */; };
+		4220B7C91DC47E4A003C3945 /* Suras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4220B7C71DC47E4A003C3945 /* Suras.xcdatamodeld */; };
+		4221F7611D72D1DD005B9905 /* Ayah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221F7601D72D1DD005B9905 /* Ayah.swift */; };
+		42316E871D64EC3D0087DFF3 /* SurahTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42316E861D64EC3D0087DFF3 /* SurahTableViewCell.swift */; };
+		423239531D9558FD006FE743 /* views.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 423239511D9558FD006FE743 /* views.xcdatamodeld */; };
+		424458D21E80375A00E42D1B /* tajweed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424458D11E80375A00E42D1B /* tajweed.swift */; };
+		42815F181DB1F01E00690772 /* play1.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F171DB1F01E00690772 /* play1.png */; };
+		42815F1A1DB1F40D00690772 /* play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F191DB1F40D00690772 /* play@3x.png */; };
+		42815F1C1DB1F59200690772 /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F1B1DB1F59200690772 /* pause@3x.png */; };
+		42815F1E1DB20F8C00690772 /* play_button copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F1D1DB20F8C00690772 /* play_button copy.png */; };
+		42815F201DB20FE000690772 /* bordoplay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F1F1DB20FE000690772 /* bordoplay@3x.png */; };
+		42815F221DB21ABA00690772 /* pause_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F211DB21ABA00690772 /* pause_button@3x.png */; };
+		42815F241DB21B4A00690772 /* ppp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F231DB21B4A00690772 /* ppp@3x.png */; };
+		42815F261DB21D6C00690772 /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42815F251DB21D6C00690772 /* share@3x.png */; };
+		4285ED741D7C67E000D49C1C /* triangular-play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4285ED731D7C67E000D49C1C /* triangular-play-button.png */; };
+		4293D47E1D66C5180015D89F /* Surah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D47D1D66C5180015D89F /* Surah.swift */; };
+		42C96B1B1D73353D0000E2D3 /* AyahTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C96B1A1D73353D0000E2D3 /* AyahTableViewCell.swift */; };
+		42C96B1E1D733A080000E2D3 /* app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C96B1C1D733A080000E2D3 /* app@3x.png */; };
+		42C96B1F1D733A080000E2D3 /* app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C96B1D1D733A080000E2D3 /* app@2x.png */; };
+		42E6A8641DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A8591DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.m */; };
+		42E6A8651DB17AB9001FDBFD /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A85B1DB17AB9001FDBFD /* SWCellScrollView.m */; };
+		42E6A8661DB17AB9001FDBFD /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A85D1DB17AB9001FDBFD /* SWLongPressGestureRecognizer.m */; };
+		42E6A8671DB17AB9001FDBFD /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A85F1DB17AB9001FDBFD /* SWTableViewCell.m */; };
+		42E6A8681DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A8611DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.m */; };
+		42E6A8691DB17AB9001FDBFD /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6A8631DB17AB9001FDBFD /* SWUtilityButtonView.m */; };
+		42F282741DBB679800BF9A42 /* alquran@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F282721DBB679800BF9A42 /* alquran@2x.png */; };
+		42F282751DBB679800BF9A42 /* alquran@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F282731DBB679800BF9A42 /* alquran@3x.png */; };
+		42F282781DBB697400BF9A42 /* myquran@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F282761DBB697400BF9A42 /* myquran@2x.png */; };
+		42F282791DBB697400BF9A42 /* myquran@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F282771DBB697400BF9A42 /* myquran@3x.png */; };
+		42F412D01EF2F7CB00235FAF /* SingleViewCoreData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 42F412CD1EF2F7CB00235FAF /* SingleViewCoreData.sqlite */; };
+		42F412D11EF2F7CB00235FAF /* SingleViewCoreData.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 42F412CE1EF2F7CB00235FAF /* SingleViewCoreData.sqlite-shm */; };
+		42F412D21EF2F7CB00235FAF /* SingleViewCoreData.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 42F412CF1EF2F7CB00235FAF /* SingleViewCoreData.sqlite-wal */; };
+		42FB44CD1F3B7B3C00B698E0 /* FRHyperLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB44CC1F3B7B3C00B698E0 /* FRHyperLabel.m */; };
+		42FC49EB1DA3E58A000084A7 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FC49E91DA3E58A000084A7 /* settings@3x.png */; };
+		42FC49EC1DA3E58A000084A7 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42FC49EA1DA3E58A000084A7 /* settings@2x.png */; };
+		42FC49F01DA41187000084A7 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC49EF1DA41187000084A7 /* SettingsTableViewController.swift */; };
+		A23F75351C9BA757006FA46F /* AyatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23F75341C9BA757006FA46F /* AyatViewController.swift */; };
+		A23F75371C9BADB7006FA46F /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23F75361C9BADB7006FA46F /* Word.swift */; };
+		A2D7F3091C8CE3F60097399A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7F3081C8CE3F60097399A /* AppDelegate.swift */; };
+		A2D7F30E1C8CE3F60097399A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D7F30C1C8CE3F60097399A /* Main.storyboard */; };
+		A2D7F3101C8CE3F60097399A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D7F30F1C8CE3F60097399A /* Assets.xcassets */; };
+		A2D7F3131C8CE3F60097399A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D7F3111C8CE3F60097399A /* LaunchScreen.storyboard */; };
+		A2D7F31D1C8CE44E0097399A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7F31C1C8CE44E0097399A /* Artist.swift */; };
+		A2D7F31F1C8CE4640097399A /* SuraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7F31E1C8CE4640097399A /* SuraViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34FF9FDBA98080B985AD6379 /* Pods-Artistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artistry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artistry/Pods-Artistry.debug.xcconfig"; sourceTree = "<group>"; };
+		4220B7C51DC47E1A003C3945 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4220B7C81DC47E4A003C3945 /* Suras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Suras.xcdatamodel; sourceTree = "<group>"; };
+		4221F7601D72D1DD005B9905 /* Ayah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ayah.swift; sourceTree = "<group>"; };
+		42316E861D64EC3D0087DFF3 /* SurahTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurahTableViewCell.swift; sourceTree = "<group>"; };
+		423239521D9558FD006FE743 /* views.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = views.xcdatamodel; sourceTree = "<group>"; };
+		424458D11E80375A00E42D1B /* tajweed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tajweed.swift; sourceTree = "<group>"; };
+		42815F171DB1F01E00690772 /* play1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play1.png; sourceTree = "<group>"; };
+		42815F191DB1F40D00690772 /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@3x.png"; sourceTree = "<group>"; };
+		42815F1B1DB1F59200690772 /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
+		42815F1D1DB20F8C00690772 /* play_button copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button copy.png"; sourceTree = "<group>"; };
+		42815F1F1DB20FE000690772 /* bordoplay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bordoplay@3x.png"; sourceTree = "<group>"; };
+		42815F211DB21ABA00690772 /* pause_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@3x.png"; sourceTree = "<group>"; };
+		42815F231DB21B4A00690772 /* ppp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ppp@3x.png"; sourceTree = "<group>"; };
+		42815F251DB21D6C00690772 /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
+		4285ED731D7C67E000D49C1C /* triangular-play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangular-play-button.png"; sourceTree = "<group>"; };
+		4293D47D1D66C5180015D89F /* Surah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surah.swift; sourceTree = "<group>"; };
+		42C96B1A1D73353D0000E2D3 /* AyahTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyahTableViewCell.swift; sourceTree = "<group>"; };
+		42C96B1C1D733A080000E2D3 /* app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app@3x.png"; sourceTree = "<group>"; };
+		42C96B1D1D733A080000E2D3 /* app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app@2x.png"; sourceTree = "<group>"; };
+		42E6A8581DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		42E6A8591DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		42E6A85A1DB17AB9001FDBFD /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		42E6A85B1DB17AB9001FDBFD /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		42E6A85C1DB17AB9001FDBFD /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		42E6A85D1DB17AB9001FDBFD /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		42E6A85E1DB17AB9001FDBFD /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		42E6A85F1DB17AB9001FDBFD /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		42E6A8601DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		42E6A8611DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		42E6A8621DB17AB9001FDBFD /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		42E6A8631DB17AB9001FDBFD /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		42F282721DBB679800BF9A42 /* alquran@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alquran@2x.png"; sourceTree = "<group>"; };
+		42F282731DBB679800BF9A42 /* alquran@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alquran@3x.png"; sourceTree = "<group>"; };
+		42F282761DBB697400BF9A42 /* myquran@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myquran@2x.png"; sourceTree = "<group>"; };
+		42F282771DBB697400BF9A42 /* myquran@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myquran@3x.png"; sourceTree = "<group>"; };
+		42F412CD1EF2F7CB00235FAF /* SingleViewCoreData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SingleViewCoreData.sqlite; sourceTree = "<group>"; };
+		42F412CE1EF2F7CB00235FAF /* SingleViewCoreData.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SingleViewCoreData.sqlite-shm"; sourceTree = "<group>"; };
+		42F412CF1EF2F7CB00235FAF /* SingleViewCoreData.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SingleViewCoreData.sqlite-wal"; sourceTree = "<group>"; };
+		42FB44C91F3B7B2200B698E0 /* Artistry-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Artistry-Bridging-Header.h"; sourceTree = "<group>"; };
+		42FB44CA1F3B7B3C00B698E0 /* Artistry-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Artistry-Bridging-Header.h"; sourceTree = "<group>"; };
+		42FB44CB1F3B7B3C00B698E0 /* FRHyperLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRHyperLabel.h; sourceTree = "<group>"; };
+		42FB44CC1F3B7B3C00B698E0 /* FRHyperLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRHyperLabel.m; sourceTree = "<group>"; };
+		42FC49E91DA3E58A000084A7 /* settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@3x.png"; sourceTree = "<group>"; };
+		42FC49EA1DA3E58A000084A7 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		42FC49EF1DA41187000084A7 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = ../SettingsTableViewController.swift; sourceTree = "<group>"; };
+		4DECBC79E4C07283B442CFA6 /* Pods-Artistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artistry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Artistry/Pods-Artistry.release.xcconfig"; sourceTree = "<group>"; };
+		664EC1AA1034D9FCB87A75A9 /* Pods_Artistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23F75341C9BA757006FA46F /* AyatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyatViewController.swift; sourceTree = "<group>"; };
+		A23F75361C9BADB7006FA46F /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		A23F753A1C9BC89A006FA46F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D7F3051C8CE3F60097399A /* Alquran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alquran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D7F3081C8CE3F60097399A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D7F30D1C8CE3F60097399A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D7F30F1C8CE3F60097399A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D7F3121C8CE3F60097399A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D7F31C1C8CE44E0097399A /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		A2D7F31E1C8CE4640097399A /* SuraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuraViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D7F3021C8CE3F60097399A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4220B7C61DC47E1A003C3945 /* CoreData.framework in Frameworks */,
+				0F1250A16B9DA8BB43116D1A /* Pods_Artistry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345CBF7D32555F9681377C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34FF9FDBA98080B985AD6379 /* Pods-Artistry.debug.xcconfig */,
+				4DECBC79E4C07283B442CFA6 /* Pods-Artistry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A27835861CA8E0B600D5CEF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7F31E1C8CE4640097399A /* SuraViewController.swift */,
+				A23F75341C9BA757006FA46F /* AyatViewController.swift */,
+				42FC49EF1DA41187000084A7 /* SettingsTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A27835871CA8E0BB00D5CEF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7F31C1C8CE44E0097399A /* Artist.swift */,
+				A23F75361C9BADB7006FA46F /* Word.swift */,
+				4293D47D1D66C5180015D89F /* Surah.swift */,
+				4221F7601D72D1DD005B9905 /* Ayah.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A27835881CA8E0CB00D5CEF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7F30C1C8CE3F60097399A /* Main.storyboard */,
+				42316E861D64EC3D0087DFF3 /* SurahTableViewCell.swift */,
+				42C96B1A1D73353D0000E2D3 /* AyahTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A2D7F2FC1C8CE3F60097399A = {
+			isa = PBXGroup;
+			children = (
+				4220B7C71DC47E4A003C3945 /* Suras.xcdatamodeld */,
+				423239511D9558FD006FE743 /* views.xcdatamodeld */,
+				A2D7F3071C8CE3F60097399A /* Alquran */,
+				A2D7F3061C8CE3F60097399A /* Products */,
+				F4D9830D50E02CC94ED1369A /* Frameworks */,
+				345CBF7D32555F9681377C62 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		A2D7F3061C8CE3F60097399A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7F3051C8CE3F60097399A /* Alquran.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D7F3071C8CE3F60097399A /* Alquran */ = {
+			isa = PBXGroup;
+			children = (
+				42FB44CA1F3B7B3C00B698E0 /* Artistry-Bridging-Header.h */,
+				42FB44CB1F3B7B3C00B698E0 /* FRHyperLabel.h */,
+				42FB44CC1F3B7B3C00B698E0 /* FRHyperLabel.m */,
+				42FB44C91F3B7B2200B698E0 /* Artistry-Bridging-Header.h */,
+				42E6A8581DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.h */,
+				42E6A8591DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.m */,
+				42E6A85A1DB17AB9001FDBFD /* SWCellScrollView.h */,
+				42E6A85B1DB17AB9001FDBFD /* SWCellScrollView.m */,
+				42E6A85C1DB17AB9001FDBFD /* SWLongPressGestureRecognizer.h */,
+				42E6A85D1DB17AB9001FDBFD /* SWLongPressGestureRecognizer.m */,
+				42E6A85E1DB17AB9001FDBFD /* SWTableViewCell.h */,
+				42E6A85F1DB17AB9001FDBFD /* SWTableViewCell.m */,
+				42E6A8601DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.h */,
+				42E6A8611DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.m */,
+				42F412CD1EF2F7CB00235FAF /* SingleViewCoreData.sqlite */,
+				42F412CE1EF2F7CB00235FAF /* SingleViewCoreData.sqlite-shm */,
+				42F412CF1EF2F7CB00235FAF /* SingleViewCoreData.sqlite-wal */,
+				42E6A8621DB17AB9001FDBFD /* SWUtilityButtonView.h */,
+				42E6A8631DB17AB9001FDBFD /* SWUtilityButtonView.m */,
+				A2D7F3081C8CE3F60097399A /* AppDelegate.swift */,
+				424458D11E80375A00E42D1B /* tajweed.swift */,
+				A27835881CA8E0CB00D5CEF9 /* Views */,
+				A27835861CA8E0B600D5CEF9 /* ViewControllers */,
+				A27835871CA8E0BB00D5CEF9 /* Models */,
+				A2D7F32C1C8CE4B20097399A /* Resources */,
+				A2D7F30F1C8CE3F60097399A /* Assets.xcassets */,
+				42F282761DBB697400BF9A42 /* myquran@2x.png */,
+				42F282771DBB697400BF9A42 /* myquran@3x.png */,
+				42F282721DBB679800BF9A42 /* alquran@2x.png */,
+				42F282731DBB679800BF9A42 /* alquran@3x.png */,
+				42815F251DB21D6C00690772 /* share@3x.png */,
+				42815F231DB21B4A00690772 /* ppp@3x.png */,
+				42815F211DB21ABA00690772 /* pause_button@3x.png */,
+				42815F1F1DB20FE000690772 /* bordoplay@3x.png */,
+				42815F1D1DB20F8C00690772 /* play_button copy.png */,
+				42815F1B1DB1F59200690772 /* pause@3x.png */,
+				42815F191DB1F40D00690772 /* play@3x.png */,
+				42815F171DB1F01E00690772 /* play1.png */,
+				42FC49E91DA3E58A000084A7 /* settings@3x.png */,
+				42FC49EA1DA3E58A000084A7 /* settings@2x.png */,
+				4285ED731D7C67E000D49C1C /* triangular-play-button.png */,
+				42C96B1D1D733A080000E2D3 /* app@2x.png */,
+				42C96B1C1D733A080000E2D3 /* app@3x.png */,
+				A23F753A1C9BC89A006FA46F /* Info.plist */,
+				A2D7F3111C8CE3F60097399A /* LaunchScreen.storyboard */,
+			);
+			path = Alquran;
+			sourceTree = "<group>";
+		};
+		A2D7F32C1C8CE4B20097399A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4D9830D50E02CC94ED1369A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4220B7C51DC47E1A003C3945 /* CoreData.framework */,
+				664EC1AA1034D9FCB87A75A9 /* Pods_Artistry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D7F3041C8CE3F60097399A /* Alquran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D7F3171C8CE3F60097399A /* Build configuration list for PBXNativeTarget "Alquran" */;
+			buildPhases = (
+				2D958EBE440C566593132200 /* [CP] Check Pods Manifest.lock */,
+				A2D7F3011C8CE3F60097399A /* Sources */,
+				A2D7F3021C8CE3F60097399A /* Frameworks */,
+				A2D7F3031C8CE3F60097399A /* Resources */,
+				A7FBC14D9C0062A8FC7BE00F /* [CP] Embed Pods Frameworks */,
+				8A0F8DF8F7413E15F08A98A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alquran;
+			productName = Artistry;
+			productReference = A2D7F3051C8CE3F60097399A /* Alquran.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D7F2FD1C8CE3F60097399A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+					"New-1",
+				);
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RayWenderlich;
+				TargetAttributes = {
+					A2D7F3041C8CE3F60097399A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B568KVGMG2;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = A2D7F3001C8CE3F60097399A /* Build configuration list for PBXProject "Alquran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D7F2FC1C8CE3F60097399A;
+			productRefGroup = A2D7F3061C8CE3F60097399A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D7F3041C8CE3F60097399A /* Alquran */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D7F3031C8CE3F60097399A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4285ED741D7C67E000D49C1C /* triangular-play-button.png in Resources */,
+				42F412D21EF2F7CB00235FAF /* SingleViewCoreData.sqlite-wal in Resources */,
+				42815F221DB21ABA00690772 /* pause_button@3x.png in Resources */,
+				42F412D01EF2F7CB00235FAF /* SingleViewCoreData.sqlite in Resources */,
+				42815F261DB21D6C00690772 /* share@3x.png in Resources */,
+				42815F181DB1F01E00690772 /* play1.png in Resources */,
+				42815F1A1DB1F40D00690772 /* play@3x.png in Resources */,
+				42815F241DB21B4A00690772 /* ppp@3x.png in Resources */,
+				42FC49EC1DA3E58A000084A7 /* settings@2x.png in Resources */,
+				42C96B1E1D733A080000E2D3 /* app@3x.png in Resources */,
+				42F282751DBB679800BF9A42 /* alquran@3x.png in Resources */,
+				A2D7F3131C8CE3F60097399A /* LaunchScreen.storyboard in Resources */,
+				A2D7F3101C8CE3F60097399A /* Assets.xcassets in Resources */,
+				42F412D11EF2F7CB00235FAF /* SingleViewCoreData.sqlite-shm in Resources */,
+				42815F201DB20FE000690772 /* bordoplay@3x.png in Resources */,
+				42815F1C1DB1F59200690772 /* pause@3x.png in Resources */,
+				42815F1E1DB20F8C00690772 /* play_button copy.png in Resources */,
+				42C96B1F1D733A080000E2D3 /* app@2x.png in Resources */,
+				42F282781DBB697400BF9A42 /* myquran@2x.png in Resources */,
+				42F282791DBB697400BF9A42 /* myquran@3x.png in Resources */,
+				42FC49EB1DA3E58A000084A7 /* settings@3x.png in Resources */,
+				A2D7F30E1C8CE3F60097399A /* Main.storyboard in Resources */,
+				42F282741DBB679800BF9A42 /* alquran@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D958EBE440C566593132200 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0F8DF8F7413E15F08A98A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Artistry/Pods-Artistry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7FBC14D9C0062A8FC7BE00F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Artistry/Pods-Artistry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D7F3011C8CE3F60097399A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221F7611D72D1DD005B9905 /* Ayah.swift in Sources */,
+				42FB44CD1F3B7B3C00B698E0 /* FRHyperLabel.m in Sources */,
+				42E6A8661DB17AB9001FDBFD /* SWLongPressGestureRecognizer.m in Sources */,
+				A2D7F31D1C8CE44E0097399A /* Artist.swift in Sources */,
+				42E6A8691DB17AB9001FDBFD /* SWUtilityButtonView.m in Sources */,
+				42E6A8641DB17AB9001FDBFD /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				A23F75371C9BADB7006FA46F /* Word.swift in Sources */,
+				42FC49F01DA41187000084A7 /* SettingsTableViewController.swift in Sources */,
+				424458D21E80375A00E42D1B /* tajweed.swift in Sources */,
+				42E6A8681DB17AB9001FDBFD /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				4220B7C91DC47E4A003C3945 /* Suras.xcdatamodeld in Sources */,
+				A23F75351C9BA757006FA46F /* AyatViewController.swift in Sources */,
+				423239531D9558FD006FE743 /* views.xcdatamodeld in Sources */,
+				42E6A8651DB17AB9001FDBFD /* SWCellScrollView.m in Sources */,
+				42316E871D64EC3D0087DFF3 /* SurahTableViewCell.swift in Sources */,
+				4293D47E1D66C5180015D89F /* Surah.swift in Sources */,
+				42E6A8671DB17AB9001FDBFD /* SWTableViewCell.m in Sources */,
+				A2D7F31F1C8CE4640097399A /* SuraViewController.swift in Sources */,
+				42C96B1B1D73353D0000E2D3 /* AyahTableViewCell.swift in Sources */,
+				A2D7F3091C8CE3F60097399A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D7F30C1C8CE3F60097399A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D7F30D1C8CE3F60097399A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D7F3111C8CE3F60097399A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D7F3121C8CE3F60097399A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D7F3151C8CE3F60097399A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D7F3161C8CE3F60097399A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D7F3181C8CE3F60097399A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FF9FDBA98080B985AD6379 /* Pods-Artistry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B568KVGMG2;
+				INFOPLIST_FILE = Alquran/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.alquran.app;
+				PRODUCT_NAME = Alquran;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alquran/Artistry-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2D7F3191C8CE3F60097399A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DECBC79E4C07283B442CFA6 /* Pods-Artistry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B568KVGMG2;
+				INFOPLIST_FILE = Alquran/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kz.alquran.app;
+				PRODUCT_NAME = Alquran;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alquran/Artistry-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D7F3001C8CE3F60097399A /* Build configuration list for PBXProject "Alquran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D7F3151C8CE3F60097399A /* Debug */,
+				A2D7F3161C8CE3F60097399A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D7F3171C8CE3F60097399A /* Build configuration list for PBXNativeTarget "Alquran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D7F3181C8CE3F60097399A /* Debug */,
+				A2D7F3191C8CE3F60097399A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4220B7C71DC47E4A003C3945 /* Suras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4220B7C81DC47E4A003C3945 /* Suras.xcdatamodel */,
+			);
+			currentVersion = 4220B7C81DC47E4A003C3945 /* Suras.xcdatamodel */;
+			path = Suras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		423239511D9558FD006FE743 /* views.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				423239521D9558FD006FE743 /* views.xcdatamodel */,
+			);
+			currentVersion = 423239521D9558FD006FE743 /* views.xcdatamodel */;
+			path = views.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2D7F2FD1C8CE3F60097399A /* Project object */;
+}

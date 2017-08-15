@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Ayah" syncable="YES">
+        <attribute name="arab_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ayah_index_quran" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ayah_index_surah" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eng_meaning" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eng_transliteration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kaz_meaning" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rus_meaning" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rus_tafsir" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sura_index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="transliteration" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sura" syncable="YES">
+        <attribute name="arab_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ayah_count" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="city_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="juz" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kaz_meaning" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kaz_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_number" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Word" syncable="YES">
+        <attribute name="arab" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="audio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ayah" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="eng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eng_trans" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index_to_ayah" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="index_to_quran" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="kaz" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rus" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ayah" positionX="-63" positionY="45" width="128" height="195"/>
+        <element name="Sura" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="Word" positionX="-63" positionY="90" width="128" height="180"/>
+    </elements>
+</model>

@@ -1,0 +1,15 @@
+PODS:
+  - ReachabilitySwift (2.4)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - ReachabilitySwift
+  - SWTableViewCell (~> 0.3.7)
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: dc7452dab85ff881904215e1a113326ad8d07beb
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+PODFILE CHECKSUM: f5ff55cadbb0eab7da238e73a6f269e6fe4116c7
+
+COCOAPODS: 1.1.0.rc.3
